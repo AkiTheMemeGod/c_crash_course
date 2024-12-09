@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <conio.h>
+#include<ctype.h>
 
 int main() {
     char str[100], digit[100], digitrev[100],temp;
@@ -8,8 +9,9 @@ int main() {
 
     printf("Enter a string: ");
     scanf("%s", str);
-
+    
     int len = strlen(str);
+    str
 
     for (int i = 0; i < len; i++) {
         if (str[i] >= '0' && str[i] <= '9') {
