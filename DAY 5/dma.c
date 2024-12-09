@@ -21,6 +21,11 @@ int main(){
     {   
         printf("Element  : %f \n",a[i]);
     }
+    free(a);
+    for (int i = 0; i < 10; i++)
+    {   
+        printf("Element  : %f \n",a[i]);
+    }
     
 
 
