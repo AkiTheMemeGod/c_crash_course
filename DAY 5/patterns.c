@@ -14,7 +14,7 @@ int main() {
         }
         for (int j = 1; j <= i; j++)
         {
-            printf("%d ",b++);
+            printf("* ");
         }
         printf("\n");
         }
@@ -27,7 +27,7 @@ int main() {
         }
         for (int j = i; j > 1; j--)
         {
-            printf("%d ",b++);
+            printf("* ");
         }
         printf("\n");
         }

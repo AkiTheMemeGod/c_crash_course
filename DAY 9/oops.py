@@ -76,16 +76,21 @@ class LinkedList:
     def __str__(self):
         ptr = self.head
         while ptr:
-            print(str(ptr.data),"->",end='')
+            print(str(ptr.data), end='->')
             ptr = ptr.next
         return "End"
 
 
 n = LinkedList()
-n.append(1)
+"""n.append(1)
 n.append(2)
 n.append(3)
 n.append(4)
 n.append(5)
-n.deletion_in_middle(2)
-print(n)
+n.deletion_in_beginning()
+print(n)"""
+
+while True:
+    x = int(input("Enter the Node value to enter at beginning : "))
+    n.insert_at_beginning(x)
+    print(n)

@@ -1,2 +1,0 @@
-print("I HATE NIGGERS , PATTERNS , Kabboom People and watermelon and basketball people, alphabet people ,"
-      " color rainbow people, small eyes people, dog eating people, (Gay) - Pop Fans, 911 haters, ")

@@ -16,7 +16,7 @@ void swapreference(int *a,int *b){
 }
 int main(){
     int a = 10,b = 20;
-    swapreference(&a,&b);
+    swapvalue(a,b);
     printf("In main function\n");
     printf("a = %d, b = %d",a,b);
     getch();
